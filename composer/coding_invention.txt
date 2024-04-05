@@ -1,0 +1,47 @@
+Coding inventions
+- Quy tắc đặt tên
+    + camelCase: Từ đầu viết thường, các từ sau viết hoa chữ cái đầu, dùng cho tên hàm, tên biến
+    + PascalCase: Tất cả các từ đều viết hoa chữ cái đầu, dùng cho tên class
+    + snake_case: Tất cả từ đều viết thường và nối với nhau bằng dấu gạch dưới, dùng cho tên hàm, tên biến
+    + Tên biến, class nên là danh từ/cụm danh từ
+    + Tên hàm nên bắt đầu bằng động từ
+
+- Quy tắc số lượng
+    + Một hàm không vượt quá 30 dòng
+    + Một class không vượt quá 500 dòng
+    + Một dòng không vượt quá 80 ký tự
+    + Một hàm chỉ nên thực hiện một chức năng, trong vài trường hợp có thể thực hiện 2 chức năng trở nên nhưng cần thể hiện rõ ở tên hàm
+    + Một hàm không vượt quá 5 tham số (tiêu chuẩn <= 3)
+    + Một dòng chỉ nên khai báo một biến
+    + Các câu lệnh lồng nhau tối đa 4 cấp
+
+- Quy tắc xuống dòng
+    + Khi xuất hiện dấu phẩy, xuống dòng ngay sau dấu phẩy
+    + Các đoạn mã lồng nhau thì xuống dòng theo từng cấp
+    + Khi xuống một dòng mới, cần bắt đầu cùng cột với đoạn mã cùng cấp ở phía trên
+
+- Quy tắc comment
+    + Hạn chế dùng comment để giải thích khác => cần tối ưu mã nguồn
+    + Chỉ viết comment khi viết document cho thư viện hoặc là thông tin đính kèm cho class
+
+
+*PSR (PHP Standard Recommendation): Là một tập hợp các quy tắc viết code PHP được đưa ra nhằm tạo ra một chuẩn viết code chung cho cộng đồng PHP. Đây không phải là một quy tắc bắt buộc, nhưng nó giúp cho việc đọc code của người khác dễ dàng hơn, giúp cho việc hợp tác giữa các nhà phát triển dễ dàng hơn.
+
+- PSR-1: Basic Coding Standard
+    + Mã php phải được viết trong cặp dấu <?php và ?>.
+    + Code chỉ được sử dụng UTF-8 không BOM (Byte Order Mark - một ký tự đặc biệt được thêm vào đầu file để xác định endian của file).
+    + Mỗi một file php chỉ nên làm một nhiệm vụ duy nhất (tránh chồng chéo)
+    + Các hằng số phải viết hoa và phân cách bằng dấu gạch dưới
+
+- PSR-2: Coding Style Guide
+    + Đạt PSR-1
+    + Sử dụng 4 khoảng trắng để thụt vào mỗi cấp
+    + Sau khi khai báo namespace hay use cần có 1 khoảng trắng sau đó
+    + Thẻ đóng/mở hàm phải nằm riêng ở 1 dòng
+    + Trước thẻ mở/đóng hàm không được có khoảng trắng
+    + Sử dụng dấu nháy đơn cho chuỗi không chứa biến, trường hợp chuỗi có dấu nháy đơn thì sử dụng dấu nháy kép
+    + Với khối lệnh switch case, phải có break và return, trường hợp không có phải comment // no break
+
+- PSR-0: Autoloading Standard
+
+- PSR-4: Autoloading Standard

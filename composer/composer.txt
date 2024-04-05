@@ -1,0 +1,18 @@
+- Là trình quản lý các thư viện của php
+- composer update: cập nhật các thư viện đã cài đặt trên composer => làm thay đổi file composer.lock
+- composer install: cài đặt các thư viện đã được định nghĩa trong file composer.lock
+
+* Khi chạy composer update:
+    - Đọc file composer.json
+    - Xóa các thư viện đã cài đặt nhưng không còn trong file composer.json
+    - Kiểm tra các thư viện đã cài đặt có còn mới không, nếu có thì cập nhật
+    - Cài đặt các thư viện mới
+    - Cập nhật file composer.lock
+
+* Khi chạy composer install:
+    - Đọc file composer.lock
+    - Cài đặt các thư viện đã được định nghĩa trong file composer.lock
+    - Nếu không có file composer.lock thì chạy như composer update
+
+* Composer update thường dùng cho môi trường dev vì nó sẽ cập nhật các thư viện mới nhất => có thể gây lỗi
+* Composer install thường dùng cho môi trường production vì nó sẽ cài đặt các thư viện đã được kiểm tra và chắc chắn là ổn định

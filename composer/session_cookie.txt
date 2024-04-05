@@ -1,0 +1,16 @@
+Session:
+* Là một cách lưu trữ thông tin trên server
+* Ưu điểm:
+    - Không lưu trữ trên trình duyệt mà được lưu trữ ở phía server => Khó sửa đổi => Bảo mật hơn
+
+* Nhược điểm:
+    - Khi đóng trình duyệt sẽ hết session => Thời gian lưu trữ ngắn
+
+Cookie:
+* Là một cách lưu trữ thông tin trên trình duyệt
+* Ưu điểm:
+    - Lưu trữ trên trình duyệt
+    - Thời gian lưu trữ dài
+
+* Nhược điểm:
+    - Dễ bị sửa đổi/đánh cắp => Bảo mật kém
