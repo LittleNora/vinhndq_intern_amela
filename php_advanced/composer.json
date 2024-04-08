@@ -1,0 +1,17 @@
+{
+    "name": "quangvinh/php_advanced",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "vinhndq",
+            "email": "nguyenduyquangvinh2906@gmail.com"
+        }
+    ],
+    "require": {
+        "ext-pdo": "*"
+    }
+}

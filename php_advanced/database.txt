@@ -1,0 +1,11 @@
+*User
+- username
+- email
+- password
+- created_at
+
+*Comment
+- user_id
+- content
+- parent_id
+- created_at
