@@ -1,0 +1,19 @@
+{
+    "name": "nora/mvc_oop",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "vinhndq",
+            "email": "nguyenduyquangvinh2906@gmail.com"
+        }
+    ],
+    "require": {
+        "bramus/router": "^1.6",
+        "eftec/bladeone": "^4.13",
+      "ext-pdo": "*"
+    }
+}
