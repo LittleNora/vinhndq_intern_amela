@@ -1,0 +1,53 @@
+I. Khái niệm
+- Là dịch vụ để các ứng dụng client - server giao tiếp với nhau
+- Là ứng dụng hoặc thành phần ứng dụng để giao tiếp
+- Là tập hợp các tiêu chuẩn hoặc giao thức để trao đổi thông tin giữa các thiết bị hoặc ứng dụng
+
+II. Phân loại
+- SOAP web service
+- RESTful web service
+
+1. SOAP web service
+- SOAP (Simple Object Access Protocol - Dịch vụ Web giao thức truy cập đối tượng đơn giản)
+- Là một trong những giao thức được xây dựng trên XML nhằm định nghĩa về dữ liệu dạng thuần văn bản thông qua HTTP
+- Được xem là giao thức không phụ thuộc vào platform hay ngôn ngữ lập trình nào => có thể viết bằng Java, PHP, .NET, ... hay triển khai trên Windows, Linux, ...
+
+2. RESTful web service
+- REST (REpresentational State Transfer)
+- Là một kiểu kiến trúc, không phải một giao thức
+- Có thể viết bằng bất kỳ ngôn ngữ lập trình nào, triển khai trên bất kỳ hệ điều hành nào
+- Có thể sử dụng được các SOAP web service khi thực hiện
+- Cho phép nhiều định dạng khác nhau như Plain Text, HTML, XML và JSON
+
+III. Những thành phần cơ bản của Web Service
+1. UDDI: Universal Description, Discovery, Integration (Mô tả, khám phá, tích hợp)
+- Là một tiêu chuẩn dựa trên XML nhằm mô tả, xuất bản và tìm kiếm các dịch vụ của web
+
+2. WSDL: Web Service Description Language (Ngôn ngữ mô tả Web Service)
+- Được xem là ngôn ngữ xây dựng trên XML nhằm mô tả các dịch vụ về web và cách thức để truy cập chúng.
+- Ngoài ra, WSDL còn mô tả một dịch vụ web cùng với định dạng thông báo và những chi tiết giao thức cho dịch vụ của web
+- SOAP: Là một giao thức thiết lập dựa vào XML đơn giản, cho phép các ứng dụng trao đổi thông tin qua HTTP
+
+IV. Những yếu tố chính của RESTful Web Service
+1. Tài nguyên
+- Là yếu tố quan trọng đầu tiên của RESTful Web Service
+- VD: URL ứng dụng web là amela.vn, để truy cập vào tài nguyên hồ sơ nhân viên thông qua dịch vụ web
+    => gọi đến URL: amela.vn/employee/ (yêu cầu máy chủ web cung cấp thông tin chi tiết về nhân viên có mã số 1)
+
+2. Request Verbs (Động từ yêu cầu)
+- Là các phương thức GET, POST, PUT, DELETE
+
+3. Request Headers (Tiêu đề yêu cầu)
+- Là các thông số được gửi cùng với yêu cầu. Chúng có thể xác định loại phản hồi được yêu cầu hoặc chi tiết ủy quyền
+
+4. Request Body (Nội dung yêu cầu)
+- Dữ liệu được gửi kèm theo yêu cầu
+- Thông thường, dữ liệu được gửi khi có một yêu cầu POST, PUT được thực hiện
+    => trong yêu cầu POST, PUT, máy khách sẽ báo với dịch vụ web rằng nó muốn thêm tài nguyên vào máy chủ
+    => Khi đó request body sẽ bao gồm thông tin chi tiết về những tài nguyên này
+
+5. Response Body (Nội dung phản hồi)
+- Khi đưa ra yêu cấu truy vấn, máy chủ sẽ trả về tài liệu dạng XML hoặc JSON bao gồm tất cả những thông tin server muốn client nhận được
+
+6. Response Status Codes (Mã trạng thái phản hồi)
+- Được trả về cùng với phản hồi của máy chủ web, cho biết trạng thái xử lý khi máy chủ nhận được yêu cầu.

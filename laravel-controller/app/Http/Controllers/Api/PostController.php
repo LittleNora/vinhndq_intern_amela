@@ -14,10 +14,10 @@ use Yajra\DataTables\Facades\DataTables;
 class PostController extends Controller
 {
     public function __construct(
-        private Post $model
+        private Post $model,
     )
     {
-//        $this->authorizeResource(Post::class, 'post');
+        $this->authorizeResource(Post::class, 'post');
     }
 
     public function index()
@@ -42,7 +42,7 @@ class PostController extends Controller
             return response()->json([
                 'message' => __('Data created successfully!'),
                 'data' => $model,
-            ]);
+            ], 201);
         } catch (\Exception $e) {
             DB::rollBack();
 
@@ -94,7 +94,7 @@ class PostController extends Controller
 
             return response()->json([
                 'message' => __('Data deleted successfully!'),
-            ]);
+            ], 204);
         } catch (\Exception $e) {
             DB::rollBack();
 
