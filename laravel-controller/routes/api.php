@@ -25,25 +25,4 @@ Route::middleware('auth:sanctum')->group(function () {
         ->except('create', 'edit')->names('api.posts');
 });
 
-Route::middleware('guest:sanctum')->post('/login', function (Request $request) {
-    $request->validate([
-        'email' => 'required|email',
-        'password' => 'required'
-    ], [
-        'email.required' => __('Email is required!'),
-        'email.email' => __('Email is not valid!'),
-        'password.required' => __('Password is required!')
-    ]);
-
-    if (Auth::attempt($request->only('email', 'password'))) {
-        return response()->json([
-            'user' => Auth::user(),
-            'token' => $request->user()->createToken('token-name')->plainTextToken,
-            'token_type' => 'Bearer',
-        ]);
-    }
-
-    return response()->json([
-        'message' => __('Login failed!')
-    ], 401);
-});
+Route::middleware('guest:sanctum')->post('/login', [\App\Http\Controllers\Api\AuthController::class, 'postLogin']);

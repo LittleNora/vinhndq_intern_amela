@@ -18,7 +18,7 @@
             <div class="bg-white dark:bg-gray-800 overflow-hidden shadow-sm sm:rounded-lg">
                 <div class="p-5 text-gray-900 dark:text-gray-100">
                     <a class="btn btn-primary rounded"
-                       href="{{ route('posts.create') }}"
+                       href="#"
                        data-toggle="modal" data-target="#createModal"
                     >
                         Add new post
