@@ -33,7 +33,7 @@ class ProfileController extends Controller
         } catch (\Exception $e) {
             Log::error($e->getMessage());
 
-            return response()->json(['error' => $e->getMessage()], 400);
+            return response()->json(['error' => __('Unable to get user profile')], 500);
         }
     }
 
@@ -86,7 +86,7 @@ class ProfileController extends Controller
             DB::commit();
 
             return response()->json([
-                'message' => 'Profile updated successfully',
+                'message' => __('Profile updated successfully'),
                 'data' => $user
             ]);
 
@@ -95,7 +95,7 @@ class ProfileController extends Controller
 
             Log::error($e->getMessage());
 
-            return response()->json(['error' => $e->getMessage()], 400);
+            return response()->json(['error' => __('Unable to update profile')], 500);
         }
     }
 
@@ -144,14 +144,14 @@ class ProfileController extends Controller
 
             DB::commit();
 
-            return response()->json(['message' => 'User deleted successfully']);
+            return response()->json(['message' => __('User deleted successfully')]);
 
         } catch (\Exception $e) {
             DB::rollBack();
 
             Log::error($e->getMessage());
 
-            return response()->json(['error' => $e->getMessage()], 400);
+            return response()->json(['error' => __('Unable to delete user')], 500);
         }
     }
 }

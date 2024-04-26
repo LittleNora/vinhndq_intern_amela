@@ -38,9 +38,9 @@ class PostController extends Controller
 
             return response()->json($data, 200);
         } catch (\Exception $e) {
-            Log::error('Error: ' . $e->getMessage());
+            Log::error(__('Error') . ': ' . $e->getMessage());
 
-            return response()->json(['message' => 'Error: ' . $e->getMessage()], 500);
+            return response()->json(['message' => __('Error') . ': ' . $e->getMessage()], 500);
         }
     }
 
@@ -104,9 +104,9 @@ class PostController extends Controller
         } catch (\Exception $e) {
             DB::rollBack();
 
-            Log::error('Error: ' . $e->getMessage());
+            Log::error(__('Error') . ': ' . $e->getMessage());
 
-            return response()->json(['message' => 'Error: ' . $e->getMessage()], 500);
+            return response()->json(['message' => __('Error') . ': ' . $e->getMessage()], 500);
         }
     }
 
@@ -138,11 +138,11 @@ class PostController extends Controller
                 return response()->json($data, 200);
             }
 
-            return response()->json(['message' => 'Data not found'], 404);
+            return response()->json(['message' => __('Data not found')], 404);
         } catch (\Exception $e) {
-            Log::error('Error: ' . $e->getMessage());
+            Log::error(__('Error') . ': ' . $e->getMessage());
 
-            return response()->json(['message' => 'Error: ' . $e->getMessage()], 500);
+            return response()->json(['message' => __('Error') . ': ' . $e->getMessage()], 500);
         }
     }
 
@@ -216,13 +216,13 @@ class PostController extends Controller
                 return response()->json($data, 200);
             }
 
-            return response()->json(['message' => 'Data not found'], 404);
+            return response()->json(['message' => __('Data not found')], 404);
         } catch (\Exception $e) {
             DB::rollBack();
 
-            Log::error('Error: ' . $e->getMessage());
+            Log::error(__('Error') . ': ' . $e->getMessage());
 
-            return response()->json(['message' => 'Error: ' . $e->getMessage()], 500);
+            return response()->json(['message' => __('Error') . ': ' . $e->getMessage()], 500);
         }
     }
 
@@ -257,16 +257,16 @@ class PostController extends Controller
 
                 DB::commit();
 
-                return response()->json(['message' => 'Data deleted'], 200);
+                return response()->json(['message' => __('Data deleted')], 200);
             }
 
-            return response()->json(['message' => 'Data not found'], 404);
+            return response()->json(['message' => __('Data not found')], 404);
         } catch (\Exception $e) {
             DB::rollBack();
 
-            Log::error('Error: ' . $e->getMessage());
+            Log::error(__('Error') . ': ' . $e->getMessage());
 
-            return response()->json(['message' => 'Error: ' . $e->getMessage()], 500);
+            return response()->json(['message' => __('Error') . ': ' . $e->getMessage()], 500);
         }
     }
 }

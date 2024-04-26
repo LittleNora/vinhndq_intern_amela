@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Api\Auth;
 
 use App\Http\Controllers\Controller;
 use App\Models\User;
+use Illuminate\Auth\Events\Registered;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
@@ -63,13 +64,20 @@ class AuthController extends Controller
             return response()->json(['error' => $validator->errors()], 401);
         }
 
-        $credentials = request(['email', 'password']);
+        try {
 
-        if (!$token = auth('api')->attempt($credentials)) {
-            return response()->json(['error' => 'Unauthorized'], 401);
+            $credentials = request(['email', 'password']);
+
+            if (!$token = auth('api')->attempt($credentials)) {
+                return response()->json(['error' => __('Unauthorized')], 401);
+            }
+
+            return $this->createNewToken($token);
+        } catch (\Exception $e) {
+            Log::error($e->getMessage());
+
+            return response()->json(['error' => __('Unauthorized')], 401);
         }
-
-        return $this->createNewToken($token);
     }
 
     /**
@@ -113,7 +121,7 @@ class AuthController extends Controller
      *     @OA\Response(response="401", description="Error, return error message")
      * )
      */
-    public function register(Request $request): JsonResponse
+    public function register(Request $request): JsonResponse|string
     {
         $validator = Validator::make($request->all(), [
             'name' => 'required|string',
@@ -136,18 +144,21 @@ class AuthController extends Controller
 
             $user->save();
 
+            event(new Registered($user));
+
+            $token = auth('api')->login($user);
+
             DB::commit();
 
-            return response()->json([
-                'message' => 'User created successfully',
-                'user' => $user,
-            ], 201);
+            return response()->json(array_merge([
+                'message' => __('User created successfully'),
+            ], $this->getTokenInfo($token)), 201);
         } catch (\Exception $e) {
             DB::rollBack();
 
             Log::error($e->getMessage());
 
-            return response()->json(['error' => 'User Registration Failed!'], 401);
+            return response()->json(['error' => __('Unable to create user')], 500);
         }
     }
 
@@ -180,16 +191,21 @@ class AuthController extends Controller
     {
         auth('api')->logout();
 
-        return response()->json(['message' => 'User successfully signed out']);
+        return response()->json(['message' => __('User successfully signed out')]);
     }
 
     protected function createNewToken($token): JsonResponse
     {
-        return response()->json([
+        return response()->json($this->getTokenInfo($token));
+    }
+
+    protected function getTokenInfo($token): array
+    {
+        return [
             'access_token' => $token,
             'token_type' => 'Bearer',
             'expires_in' => JWTAuth::factory()->getTTL() * 60,
             'user' => auth('api')->user(),
-        ]);
+        ];
     }
 }

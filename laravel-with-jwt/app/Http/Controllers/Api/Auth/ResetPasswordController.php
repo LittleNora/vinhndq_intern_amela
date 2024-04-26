@@ -50,12 +50,12 @@ class ResetPasswordController extends Controller
             );
 
             return $status === Password::RESET_LINK_SENT
-                ? response()->json(['message' => 'Reset password link sent on your email id.'])
-                : response()->json(['error' => 'Unable to send reset password link'], 500);
+                ? response()->json(['message' => __('Reset password link sent on your email id.')])
+                : response()->json(['error' => __('Unable to send reset password link')], 500);
         } catch (\Exception $e) {
             Log::error($e->getMessage());
 
-            return response()->json(['error' => 'Something went wrong!'], 500);
+            return response()->json(['error' => __('Unable to send reset password link')], 500);
         }
     }
 
@@ -126,14 +126,14 @@ class ResetPasswordController extends Controller
             DB::commit();
 
             return $status === Password::PASSWORD_RESET
-                ? response()->json(['message' => 'Password has been reset successfully.'])
-                : response()->json(['error' => 'Unable to reset password.'], 500);
+                ? response()->json(['message' => __('Password has been reset successfully.')])
+                : response()->json(['error' => __('Unable to reset password.')], 500);
         } catch (\Exception $e) {
             DB::rollBack();
 
             Log::error($e->getMessage());
 
-            return response()->json(['error' => 'Something went wrong!'], 500);
+            return response()->json(['error' => __('Unable to reset password.')], 500);
         }
     }
 }

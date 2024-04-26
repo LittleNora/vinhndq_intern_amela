@@ -70,13 +70,13 @@ class PasswordController extends Controller
 
             DB::commit();
 
-            return response()->json(['message' => 'Password has been updated successfully.']);
+            return response()->json(['message' => __('Password has been updated successfully.')]);
         } catch (\Exception $e) {
             DB::rollBack();
 
             Log::error($e->getMessage());
 
-            return response()->json(['error' => 'Unable to update password.'], 500);
+            return response()->json(['error' => __('Unable to update password')], 500);
         }
 
     }

@@ -1,0 +1,254 @@
+2024-04-25 02:36:11,007 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-04-25 02:36:11,007 INFO Included extra file "/etc/supervisor.d/worker.conf" during parsing
+2024-04-25 02:36:11,014 INFO supervisord started with pid 1
+2024-04-25 02:36:12,020 INFO spawned: 'laravel-worker_00' with pid 8
+2024-04-25 02:36:12,025 INFO spawned: 'laravel-worker_01' with pid 9
+2024-04-25 02:36:13,028 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-04-25 02:36:13,028 INFO success: laravel-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-04-25 02:39:31,428 WARN received SIGQUIT indicating exit request
+2024-04-25 02:39:31,429 INFO waiting for laravel-worker_00, laravel-worker_01 to die
+2024-04-25 02:39:31,452 INFO stopped: laravel-worker_01 (exit status 0)
+2024-04-25 02:39:31,460 INFO stopped: laravel-worker_00 (exit status 0)
+2024-04-25 02:40:44,394 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-04-25 02:40:44,394 INFO Included extra file "/etc/supervisor.d/worker.conf" during parsing
+2024-04-25 02:40:44,398 INFO supervisord started with pid 1
+2024-04-25 02:40:45,403 INFO spawned: 'laravel-worker_00' with pid 8
+2024-04-25 02:40:45,409 INFO spawned: 'laravel-worker_01' with pid 9
+2024-04-25 02:40:46,412 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-04-25 02:40:46,413 INFO success: laravel-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-04-25 02:41:35,509 WARN received SIGQUIT indicating exit request
+2024-04-25 02:41:35,510 INFO waiting for laravel-worker_00, laravel-worker_01 to die
+2024-04-25 02:41:35,535 INFO stopped: laravel-worker_00 (exit status 0)
+2024-04-25 02:41:35,536 INFO stopped: laravel-worker_01 (exit status 0)
+2024-04-25 02:41:43,669 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-04-25 02:41:43,669 INFO Included extra file "/etc/supervisor.d/worker.conf" during parsing
+2024-04-25 02:41:43,674 INFO supervisord started with pid 1
+2024-04-25 02:41:44,677 INFO spawned: 'laravel-worker_00' with pid 8
+2024-04-25 02:41:44,680 INFO spawned: 'laravel-worker_01' with pid 9
+2024-04-25 02:41:45,684 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-04-25 02:41:45,684 INFO success: laravel-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-04-25 02:46:16,224 WARN received SIGQUIT indicating exit request
+2024-04-25 02:46:16,225 INFO waiting for laravel-worker_00, laravel-worker_01 to die
+2024-04-25 02:46:16,246 INFO stopped: laravel-worker_01 (exit status 0)
+2024-04-25 02:46:16,248 INFO stopped: laravel-worker_00 (exit status 0)
+2024-04-25 02:46:22,759 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-04-25 02:46:22,760 INFO Included extra file "/etc/supervisor.d/worker.conf" during parsing
+2024-04-25 02:46:22,765 INFO supervisord started with pid 1
+2024-04-25 02:46:23,770 INFO spawned: 'laravel-worker_00' with pid 8
+2024-04-25 02:46:23,775 INFO spawned: 'laravel-worker_01' with pid 9
+2024-04-25 02:46:24,778 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-04-25 02:46:24,779 INFO success: laravel-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-04-25 02:49:16,118 WARN received SIGQUIT indicating exit request
+2024-04-25 02:49:16,118 INFO waiting for laravel-worker_00, laravel-worker_01 to die
+2024-04-25 02:49:16,136 INFO stopped: laravel-worker_00 (exit status 0)
+2024-04-25 02:49:16,137 INFO stopped: laravel-worker_01 (exit status 0)
+2024-04-25 02:49:22,949 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-04-25 02:49:22,949 INFO Included extra file "/etc/supervisor.d/worker.conf" during parsing
+2024-04-25 02:49:22,954 INFO supervisord started with pid 1
+2024-04-25 02:49:23,959 INFO spawned: 'laravel-worker_00' with pid 8
+2024-04-25 02:49:23,972 INFO spawned: 'laravel-worker_01' with pid 9
+2024-04-25 02:49:24,975 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-04-25 02:49:24,976 INFO success: laravel-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-04-25 02:52:32,348 WARN received SIGQUIT indicating exit request
+2024-04-25 02:52:32,349 INFO waiting for laravel-worker_00, laravel-worker_01 to die
+2024-04-25 02:52:32,368 INFO stopped: laravel-worker_01 (exit status 0)
+2024-04-25 02:52:32,369 INFO stopped: laravel-worker_00 (exit status 0)
+2024-04-25 02:52:37,723 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-04-25 02:52:37,724 INFO Included extra file "/etc/supervisor.d/worker.conf" during parsing
+2024-04-25 02:52:37,728 INFO supervisord started with pid 1
+2024-04-25 02:52:38,732 INFO spawned: 'laravel-worker_00' with pid 8
+2024-04-25 02:52:38,734 INFO spawned: 'laravel-worker_01' with pid 9
+2024-04-25 02:52:39,738 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-04-25 02:52:39,739 INFO success: laravel-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-04-25 02:53:25,831 WARN received SIGQUIT indicating exit request
+2024-04-25 02:53:25,832 INFO waiting for laravel-worker_00, laravel-worker_01 to die
+2024-04-25 02:53:25,844 INFO stopped: laravel-worker_01 (exit status 0)
+2024-04-25 02:53:25,851 INFO stopped: laravel-worker_00 (exit status 0)
+2024-04-25 02:53:52,601 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-04-25 02:53:52,601 INFO Included extra file "/etc/supervisor.d/worker.conf" during parsing
+2024-04-25 02:53:52,604 INFO supervisord started with pid 1
+2024-04-25 02:53:53,608 INFO spawned: 'laravel-worker_00' with pid 8
+2024-04-25 02:53:53,613 INFO spawned: 'laravel-worker_01' with pid 9
+2024-04-25 02:53:54,616 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-04-25 02:53:54,617 INFO success: laravel-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-04-25 03:00:12,379 WARN received SIGQUIT indicating exit request
+2024-04-25 03:00:12,379 INFO waiting for laravel-worker_00, laravel-worker_01 to die
+2024-04-25 03:00:12,397 INFO stopped: laravel-worker_00 (exit status 0)
+2024-04-25 03:00:12,407 INFO stopped: laravel-worker_01 (exit status 0)
+2024-04-25 03:00:32,960 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-04-25 03:00:32,960 INFO Included extra file "/etc/supervisor.d/worker.conf" during parsing
+2024-04-25 03:00:32,964 INFO supervisord started with pid 1
+2024-04-25 03:00:33,969 INFO spawned: 'laravel-worker_00' with pid 8
+2024-04-25 03:00:33,974 INFO spawned: 'laravel-worker_01' with pid 9
+2024-04-25 03:00:34,977 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-04-25 03:00:34,978 INFO success: laravel-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-04-25 03:00:55,018 WARN received SIGQUIT indicating exit request
+2024-04-25 03:00:55,019 INFO waiting for laravel-worker_00, laravel-worker_01 to die
+2024-04-25 03:00:55,028 INFO stopped: laravel-worker_00 (exit status 0)
+2024-04-25 03:00:55,037 INFO stopped: laravel-worker_01 (exit status 0)
+2024-04-25 03:01:00,140 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-04-25 03:01:00,140 INFO Included extra file "/etc/supervisor.d/worker.conf" during parsing
+2024-04-25 03:01:00,144 INFO supervisord started with pid 1
+2024-04-25 03:01:01,149 INFO spawned: 'laravel-worker_00' with pid 8
+2024-04-25 03:01:01,154 INFO spawned: 'laravel-worker_01' with pid 9
+2024-04-25 03:01:02,157 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-04-25 03:01:02,157 INFO success: laravel-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-04-25 03:02:40,356 WARN received SIGQUIT indicating exit request
+2024-04-25 03:02:40,357 INFO waiting for laravel-worker_00, laravel-worker_01 to die
+2024-04-25 03:02:40,368 INFO stopped: laravel-worker_00 (exit status 0)
+2024-04-25 03:02:40,379 INFO stopped: laravel-worker_01 (exit status 0)
+2024-04-25 03:02:45,468 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-04-25 03:02:45,468 INFO Included extra file "/etc/supervisor.d/worker.conf" during parsing
+2024-04-25 03:02:45,472 INFO supervisord started with pid 1
+2024-04-25 03:02:46,478 INFO spawned: 'laravel-worker_00' with pid 8
+2024-04-25 03:02:46,484 INFO spawned: 'laravel-worker_01' with pid 9
+2024-04-25 03:02:47,487 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-04-25 03:02:47,488 INFO success: laravel-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-04-25 03:03:11,536 WARN received SIGQUIT indicating exit request
+2024-04-25 03:03:11,536 INFO waiting for laravel-worker_00, laravel-worker_01 to die
+2024-04-25 03:03:11,566 INFO stopped: laravel-worker_00 (exit status 0)
+2024-04-25 03:03:11,566 INFO stopped: laravel-worker_01 (exit status 0)
+2024-04-25 03:03:19,166 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-04-25 03:03:19,166 INFO Included extra file "/etc/supervisor.d/worker.conf" during parsing
+2024-04-25 03:03:19,170 INFO supervisord started with pid 1
+2024-04-25 03:03:20,174 INFO spawned: 'laravel-worker_00' with pid 8
+2024-04-25 03:03:20,183 INFO spawned: 'laravel-worker_01' with pid 9
+2024-04-25 03:03:21,186 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-04-25 03:03:21,186 INFO success: laravel-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-04-25 03:06:53,681 WARN received SIGQUIT indicating exit request
+2024-04-25 03:06:53,682 INFO waiting for laravel-worker_00, laravel-worker_01 to die
+2024-04-25 03:06:53,693 INFO stopped: laravel-worker_00 (exit status 0)
+2024-04-25 03:06:53,694 INFO stopped: laravel-worker_01 (exit status 0)
+2024-04-25 03:08:32,599 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-04-25 03:08:32,600 INFO Included extra file "/etc/supervisor.d/worker.conf" during parsing
+2024-04-25 03:08:32,604 INFO supervisord started with pid 1
+2024-04-25 03:08:33,608 INFO spawned: 'laravel-worker_00' with pid 8
+2024-04-25 03:08:33,611 INFO spawned: 'laravel-worker_01' with pid 9
+2024-04-25 03:08:34,614 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-04-25 03:08:34,614 INFO success: laravel-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-04-25 03:14:46,355 WARN received SIGQUIT indicating exit request
+2024-04-25 03:14:46,355 INFO waiting for laravel-worker_00, laravel-worker_01 to die
+2024-04-25 03:14:46,368 INFO stopped: laravel-worker_00 (exit status 0)
+2024-04-25 03:14:46,376 INFO stopped: laravel-worker_01 (exit status 0)
+2024-04-25 03:14:53,179 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-04-25 03:14:53,180 INFO Included extra file "/etc/supervisor.d/worker.conf" during parsing
+2024-04-25 03:14:53,184 INFO supervisord started with pid 1
+2024-04-25 03:14:54,189 INFO spawned: 'laravel-worker_00' with pid 8
+2024-04-25 03:14:54,193 INFO spawned: 'laravel-worker_01' with pid 9
+2024-04-25 03:14:55,196 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-04-25 03:14:55,197 INFO success: laravel-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-04-25 03:17:30,501 WARN received SIGQUIT indicating exit request
+2024-04-25 03:17:30,502 INFO waiting for laravel-worker_00, laravel-worker_01 to die
+2024-04-25 03:17:30,523 INFO stopped: laravel-worker_00 (exit status 0)
+2024-04-25 03:17:30,526 INFO stopped: laravel-worker_01 (exit status 0)
+2024-04-25 03:17:35,842 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-04-25 03:17:35,842 INFO Included extra file "/etc/supervisor.d/worker.conf" during parsing
+2024-04-25 03:17:35,846 INFO supervisord started with pid 1
+2024-04-25 03:17:36,851 INFO spawned: 'laravel-worker_00' with pid 8
+2024-04-25 03:17:36,854 INFO spawned: 'laravel-worker_01' with pid 9
+2024-04-25 03:17:37,857 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-04-25 03:17:37,858 INFO success: laravel-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-04-25 03:20:33,202 WARN received SIGQUIT indicating exit request
+2024-04-25 03:20:33,203 INFO waiting for laravel-worker_00, laravel-worker_01 to die
+2024-04-25 03:20:33,219 INFO stopped: laravel-worker_01 (exit status 0)
+2024-04-25 03:20:33,224 INFO stopped: laravel-worker_00 (exit status 0)
+2024-04-25 03:20:33,729 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-04-25 03:20:33,729 INFO Included extra file "/etc/supervisor.d/worker.conf" during parsing
+2024-04-25 03:20:33,732 INFO supervisord started with pid 1
+2024-04-25 03:20:34,737 INFO spawned: 'laravel-worker_00' with pid 8
+2024-04-25 03:20:34,742 INFO spawned: 'laravel-worker_01' with pid 9
+2024-04-25 03:20:35,746 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-04-25 03:20:35,746 INFO success: laravel-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-04-25 03:22:03,920 WARN received SIGQUIT indicating exit request
+2024-04-25 03:22:03,921 INFO waiting for laravel-worker_00, laravel-worker_01 to die
+2024-04-25 03:22:03,933 INFO stopped: laravel-worker_01 (exit status 0)
+2024-04-25 03:22:03,945 INFO stopped: laravel-worker_00 (exit status 0)
+2024-04-25 03:23:49,443 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-04-25 03:23:49,443 INFO Included extra file "/etc/supervisor.d/worker.conf" during parsing
+2024-04-25 03:23:49,449 INFO supervisord started with pid 1
+2024-04-25 03:23:50,454 INFO spawned: 'laravel-worker_00' with pid 8
+2024-04-25 03:23:50,459 INFO spawned: 'laravel-worker_01' with pid 9
+2024-04-25 03:23:51,462 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-04-25 03:23:51,462 INFO success: laravel-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-04-25 03:26:36,792 WARN received SIGQUIT indicating exit request
+2024-04-25 03:26:36,793 INFO waiting for laravel-worker_00, laravel-worker_01 to die
+2024-04-25 03:26:36,808 INFO stopped: laravel-worker_00 (exit status 0)
+2024-04-25 03:26:36,813 INFO stopped: laravel-worker_01 (exit status 0)
+2024-04-25 03:26:45,993 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-04-25 03:26:45,994 INFO Included extra file "/etc/supervisor.d/worker.conf" during parsing
+2024-04-25 03:26:45,998 INFO supervisord started with pid 1
+2024-04-25 03:26:47,003 INFO spawned: 'laravel-worker_00' with pid 8
+2024-04-25 03:26:47,008 INFO spawned: 'laravel-worker_01' with pid 9
+2024-04-25 03:26:48,012 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-04-25 03:26:48,012 INFO success: laravel-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-04-25 03:28:17,190 WARN received SIGQUIT indicating exit request
+2024-04-25 03:28:17,190 INFO waiting for laravel-worker_00, laravel-worker_01 to die
+2024-04-25 03:28:17,201 INFO stopped: laravel-worker_01 (exit status 0)
+2024-04-25 03:28:17,202 INFO stopped: laravel-worker_00 (exit status 0)
+2024-04-25 03:28:19,236 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-04-25 03:28:19,236 INFO Included extra file "/etc/supervisor.d/worker.conf" during parsing
+2024-04-25 03:28:19,241 INFO supervisord started with pid 1
+2024-04-25 03:28:20,245 INFO spawned: 'laravel-worker_00' with pid 8
+2024-04-25 03:28:20,248 INFO spawned: 'laravel-worker_01' with pid 9
+2024-04-25 03:28:21,251 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-04-25 03:28:21,251 INFO success: laravel-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-04-25 03:28:46,299 INFO reaped unknown pid 34 (exit status 0)
+2024-04-25 04:01:10,185 WARN received SIGQUIT indicating exit request
+2024-04-25 04:01:10,186 INFO waiting for laravel-worker_00, laravel-worker_01 to die
+2024-04-25 04:01:10,202 INFO stopped: laravel-worker_01 (exit status 0)
+2024-04-25 04:01:11,205 INFO stopped: laravel-worker_00 (exit status 0)
+2024-04-25 04:01:25,665 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-04-25 04:01:25,665 INFO Included extra file "/etc/supervisor.d/worker.conf" during parsing
+2024-04-25 04:01:25,669 INFO supervisord started with pid 1
+2024-04-25 04:01:26,674 INFO spawned: 'laravel-worker_00' with pid 8
+2024-04-25 04:01:26,679 INFO spawned: 'laravel-worker_01' with pid 9
+2024-04-25 04:01:27,682 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-04-25 04:01:27,682 INFO success: laravel-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-04-25 04:22:38,106 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-04-25 04:22:38,107 INFO Included extra file "/etc/supervisor.d/worker.conf" during parsing
+2024-04-25 04:22:38,113 INFO supervisord started with pid 1
+2024-04-25 04:22:39,117 INFO spawned: 'laravel-worker_00' with pid 8
+2024-04-25 04:22:39,119 INFO spawned: 'laravel-worker_01' with pid 9
+2024-04-25 04:22:40,124 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-04-25 04:22:40,124 INFO success: laravel-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-04-25 04:23:09,427 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-04-25 04:23:09,427 INFO Included extra file "/etc/supervisor.d/worker.conf" during parsing
+2024-04-25 04:23:09,430 INFO supervisord started with pid 1
+2024-04-25 04:23:10,431 INFO spawned: 'laravel-worker_00' with pid 8
+2024-04-25 04:23:10,433 INFO spawned: 'laravel-worker_01' with pid 9
+2024-04-25 04:23:11,436 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-04-25 04:23:11,436 INFO success: laravel-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-04-25 04:26:38,834 WARN received SIGQUIT indicating exit request
+2024-04-25 04:26:38,835 INFO waiting for laravel-worker_00, laravel-worker_01 to die
+2024-04-25 04:26:38,878 INFO stopped: laravel-worker_00 (exit status 0)
+2024-04-25 04:26:38,878 INFO stopped: laravel-worker_01 (exit status 0)
+2024-04-25 07:09:32,031 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-04-25 07:09:32,032 INFO Included extra file "/etc/supervisor.d/php-fpm.conf" during parsing
+2024-04-25 07:09:32,033 INFO Included extra file "/etc/supervisor.d/worker.conf" during parsing
+2024-04-25 07:09:32,040 INFO supervisord started with pid 1
+2024-04-25 07:09:33,043 INFO spawned: 'laravel-worker_00' with pid 9
+2024-04-25 07:09:33,045 INFO spawned: 'laravel-worker_01' with pid 10
+2024-04-25 07:09:33,047 INFO spawned: 'php-fpm' with pid 11
+2024-04-25 07:09:34,161 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-04-25 07:09:34,161 INFO success: laravel-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-04-25 07:09:34,161 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-04-25 07:12:45,763 WARN received SIGQUIT indicating exit request
+2024-04-25 07:12:45,764 INFO waiting for laravel-worker_00, laravel-worker_01, php-fpm to die
+2024-04-25 07:12:45,770 INFO stopped: php-fpm (exit status 0)
+2024-04-25 07:12:45,791 INFO stopped: laravel-worker_00 (exit status 0)
+2024-04-25 07:12:45,791 INFO stopped: laravel-worker_01 (exit status 0)
+2024-04-25 07:20:49,211 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-04-25 07:20:49,212 INFO Included extra file "/etc/supervisor.d/php-fpm.conf" during parsing
+2024-04-25 07:20:49,212 INFO Included extra file "/etc/supervisor.d/worker.conf" during parsing
+2024-04-25 07:20:49,220 INFO supervisord started with pid 1
+2024-04-25 07:20:50,223 INFO spawned: 'laravel-worker_00' with pid 9
+2024-04-25 07:20:50,225 INFO spawned: 'laravel-worker_01' with pid 10
+2024-04-25 07:20:50,228 INFO spawned: 'php-fpm' with pid 11
+2024-04-25 07:20:51,269 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-04-25 07:20:51,270 INFO success: laravel-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-04-25 07:20:51,270 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-04-25 07:56:57,503 WARN received SIGQUIT indicating exit request
+2024-04-25 07:56:57,507 INFO waiting for laravel-worker_00, laravel-worker_01, php-fpm to die
+2024-04-25 07:56:57,521 INFO stopped: php-fpm (exit status 0)
+2024-04-25 07:56:57,542 INFO stopped: laravel-worker_01 (exit status 0)
+2024-04-25 07:56:57,550 INFO stopped: laravel-worker_00 (exit status 0)
